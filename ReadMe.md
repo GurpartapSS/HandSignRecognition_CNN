@@ -9,3 +9,4 @@ All parameters were choosen with aim of using the model in real time using CPU a
 
 The notebook "Test Models" aims at testing the models using OpenCV and can be used readily if the models are saved in the same folder.
 
+Had to augment data and into training and test sets since running model on TPU doesn't support fit_generate by keras yet.
